@@ -79,30 +79,29 @@ Countries is a mapping table
 
 ---
 
-Data can be accessed on BigQuery
-: https://console.cloud.google.com/bigquery?project=easyship-staging-199203&p=easyship-staging-199203&d=data_test&page=dataset
-Please reach out to HR if you do not have access
+Data can be accessed on BigQuery, HR must have provided you with dataset link. Please reach out to HR if you don't have the link yet.
 
 ---
 
 **Scenario :**
 
-1. Operations Team would like to know what are the top 3 performing couriers in last 3 months. Performance is calculated based on the number of shipments. 
+1. Operations Team would like to know what are the top 3 performing couriers in the month of June, July and August 2021. Performance is calculated based on the number of shipments. 
 
 
-2. The pricing Team will be adjusting margin based on shipment volume.  Could you help them identify what was the % growth in terms of shipment last week compared to a week before? They would only like to see the result for these couriers umbrella names (FedEx and USPS). Week starts on Monday and ends on Sunday
+2. The pricing Team will be adjusting margin based on shipment volume.  Could you help them identify what was the % growth in terms of shipment for 2 consecutive weeks? They would only like to see the result for these couriers umbrella names (fedex and uxpx) and for the week that starts on 6-Sept-2021 compared to the week that starts on 30-Aug-2021.
 
+PS : Week starts on Monday and ends on Sunday
 
-3. Customer Success Team would like to know the average delivery times broken down by month and courier name for the last 3 months. Delivery time starts when a shipment has first status record event within (`In Transit to Customer, In Transit to Consolidation Center`) and Ends when there is first status record event within (`Delivered, Out for Delivery, Failed Delivery Attempt, Delivery Expected (End of Updates)`)
+3. Customer Success Team would like to know the average delivery times broken down by month and courier name in the month of June, July and August 2021. Delivery time starts when a shipment has first status record event within (`In Transit to Customer, In Transit to Consolidation Center`) and Ends when there is first status record event within (`Delivered, Out for Delivery, Failed Delivery Attempt, Delivery Expected (End of Updates)`)
 
 
 4. Business Team would like to know which couriers are used most on each day of the week. So the output will look like
 
 | day\_of\_week | courier\_name                  |
 | ------------- | ------------------------------ |
-| Monday        | FedEx - International Priority |
-| Tuesday       | DHL - Express Worldwide        |
-| Wednesday     | USPS - First Class             |
+| Monday        | uxpx - priority mail           |
+| Tuesday       | qxprexx - domextic             |
+| Wednesday     | uxpx - firxt claxx             |
 
 
 5. Marketing Team would like to know, on average how much time does it take for a client to get activated. Activation Time is calculated from onboarding to the first shipment made
