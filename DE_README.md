@@ -5,7 +5,7 @@
 
 **Feel free to use any programming language and tool to acheive the goal : The idea is to generate data mart and refresh everyday to be used by the visualisation layer**
 
-**Remember the visualisation layer only uses the snapshot**
+**Note: Visualisation layer only uses the snapshot**
 
 **Good luck**
 ---
