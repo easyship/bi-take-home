@@ -90,9 +90,7 @@ Data can be accessed on BigQuery, HR must have provided you with dataset link. P
 
 **Scenario :**
 
-1. Operations Team would like to know what are the top 3 performing couriers in the month of June, July and August 2021. Performance is calculated based on the number of shipments. 
-
-2. Business Team would like to know which couriers are used most on each day of the week. So the output will look like
+1. Business Team would like to know which couriers are used most on each day of the week. So the output will look like
 
 | day\_of\_week | courier\_name                  |
 | ------------- | ------------------------------ |
@@ -100,5 +98,9 @@ Data can be accessed on BigQuery, HR must have provided you with dataset link. P
 | Tuesday       | qxprexx - domextic             |
 | Wednesday     | uxpx - firxt claxx             |
 
+
+2. Marketing Team would like to know, on average how much time does it take for a client to get activated. Activation Time is calculated from onboarding to the first shipment made
+
+Both use case could be separate data marts. 
 
 Feel free to reach out to HR in case of any queries.
