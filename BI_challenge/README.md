@@ -1,7 +1,4 @@
 # bi-take-home
-**Take home challenge for BI Engineer position at Easyship**
-
-**Thank you showing your interest in a position at Easyship. This take home challenge has set of scenario based questions, please try to solve them using SQL.**
 
 ---
 
@@ -79,7 +76,7 @@ Countries is a mapping table
 
 ---
 
-Data can be accessed on BigQuery, HR must have provided you with dataset link. Please reach out to HR if you don't have the link yet.
+Download CSV files
 
 ---
 
